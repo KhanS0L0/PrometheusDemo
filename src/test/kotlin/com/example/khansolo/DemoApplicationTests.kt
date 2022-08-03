@@ -1,10 +1,13 @@
-package com.example.khansolo.prometheus_demo
+package com.example.khansolo
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
+/**
+ * Test to check if application is loaded
+ */
 @SpringBootTest
-class PrometheusDemoApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	fun contextLoads() {

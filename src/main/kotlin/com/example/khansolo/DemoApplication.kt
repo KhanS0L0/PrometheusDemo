@@ -1,11 +1,13 @@
-package com.example.khansolo.prometheus_demo
+package com.example.khansolo
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
+import org.springframework.cloud.openfeign.EnableFeignClients
 
 @SpringBootApplication
-class PrometheusDemoApplication
+@EnableFeignClients
+class DemoApplication
 
 fun main(args: Array<String>) {
-	runApplication<PrometheusDemoApplication>(*args)
+	runApplication<DemoApplication>(*args)
 }
